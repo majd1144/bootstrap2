@@ -1,0 +1,55 @@
+header {
+ background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+}
+ .container {
+    /* height: 100px; */
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+   align-items: center;
+    justify-content: space-between; 
+  
+}
+ a {
+  color: #333;
+  text-decoration: none;
+    border-radius: 6px;
+    font-size:25px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+a:hover{
+     font-size: 30px;
+  color: white;
+}
+
+ .inner {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap: 30px;
+}
+
+
+
+header .inner button {
+  /* background-color: white; */
+  color: #f09819;
+  border: none;
+  /* padding: 8px 14px; */
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+header .inner button:hover {
+  background-color: #ff512f;
+  color: white;
+}
